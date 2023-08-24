@@ -20,7 +20,7 @@ AppDir:
     id: org.winehq.wine
     name: wine
     icon: wine
-    version: "custom_8.14"
+    version: "custom_staging_8.14"
     exec: bin/bash
     exec_args: $APPDIR/wrapper $@
 
