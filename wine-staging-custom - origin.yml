@@ -52,18 +52,18 @@ AppDir:
       - unionfs-fuse
       - vulkan-tools
       - libcups2
-      # - libfuse2
-      # - libfuse3-3
+      - libfuse2
+      - libfuse3-3
       - libmspack0
       - gstreamer1.0-plugins-good:i386
       - gstreamer1.0-plugins-bad:i386
       - gstreamer1.0-plugins-ugly:i386
-      # - libnvidia-compute-520:i386
-      # - libnvidia-decode-520:i386
-      # - libnvidia-encode-520:i386
-      # - libnvidia-extra-520:i386
-      # - libnvidia-fbc1-520:i386
-      # - libnvidia-gl-520:i386
+      - libnvidia-compute-520:i386
+      - libnvidia-decode-520:i386
+      - libnvidia-encode-520:i386
+      - libnvidia-extra-520:i386
+      - libnvidia-fbc1-520:i386
+      - libnvidia-gl-520:i386
       - libdrm2:i386
       - libdrm-intel1:i386
       - libdrm-nouveau2:i386
@@ -94,8 +94,71 @@ AppDir:
       - libxcb-shm0:i386
       - libxcb-xfixes0:i386
       - libxcb1:i386
-      - libxcomposite1:i386
+      - alsa-tools
+      - alsa-utils:i386
+      - libpulse0
+      - libasound2:i386
+      - libglib2.0-0:i386
+      - libgphoto2-6:i386
+      - libgphoto2-port12:i386
+      - libgstreamer-plugins-base1.0-0:i386
+      - libgstreamer1.0-0:i386
+      - libpcap0.8:i386
+      - libsane:i386
+      - libudev1:i386
+      - libusb-1.0-0:i386
+      - libxext6:i386
+      - ocl-icd-libopencl1:i386
+      - libopencl1:i386
+      - libopencl-1.1-1:i386
+      - libopencl-1.2-1:i386
+      - libasound2-plugins:i386
+      - libncurses6:i386
+      - libncurses5:i386
+      - libasound2:i386
+      - libpulse0:i386  
+      - libOpenAL1:i386
+      - libgdk-pixbuf2.0-0:i386
+      - libgl1-mesa-glx:i386
+      - libglu1:i386
+      - libgl1:i386
+      - libegl1:i386
+      - libglapi-mesa:i386
+      - libgraphite2-3:i386
+      - libharfbuzz0b:i386
+      - libllvm11:i386
+      - libmd4c0:i386
+      - libepoxy0:i386
+      - libgbm1:i386
       - winbind:i386
+      - fonts-horai-umefont
+      - fonts-wqy-microhei
+      - ttf-mscorefonts-installer
+      - gnome-exe-thumbnailer
+      - libcurl4:i386
+      - libgpg-error0:i386
+      - libjack-jackd2-0:i38
+      - liblcms2-2:i38
+      - libldap-2.4-2:i386
+      - libmpg123-0:i386
+      - libsane-hpaio:i386
+      - libsmbclient:i386
+      - libsqlite3-0:i386
+      - libva-drm2:i386
+      - libva-x11-2:i386
+      - libvdpau-va-gl1:i386
+      - libvulkan1:i386
+      - ocl-icd-libopencl1:i386
+      - zlib1g:i386
+      - libqt5core5a:i386
+      - libqt5gui5:i386 
+      - libqt5widgets5:i386
+      - libqt5network5:i386
+      - libqt5printsupport5:i386
+      - libqt5sql5:i386
+      - libqt5svg5:i386
+      - libqt5multimedia5:i386
+      - libqt5multimediawidgets5:i386
 
   files:
     exclude:
